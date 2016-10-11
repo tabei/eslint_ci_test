@@ -1,3 +1,3 @@
 test:
   pre:
-    - npm run eslint --format=junit --out $CIRCLE_TEST_REPORTS/eslint/eslint.xml ./src
+    - npm run eslint ./src
